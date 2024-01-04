@@ -23,7 +23,6 @@ def get_book_text(path):
 def get_letters(string):
     character_dict = {}
     lower_string = string.lower()
-    #populate dict with all characters
     for character in lower_string:
         character_dict.setdefault(character, 0)
 
